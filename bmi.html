@@ -6,24 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>計算BMI</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <style>
+        body {
+            text-align: center;
+        }
+
+        form {
+            text-align: center;
+            width: 50%;
+            margin: 0 auto;
+        }
+    </style> -->
 </head>
 
 <body>
-    <h1>BMI計算機</h1>
-    <form action="">
-        <label for="name">姓名</label>
-        <input type="text" name="name" id="name" placeholder="請輸入姓名">
-        <br>
-        <label for="height">身高</label>
-        <input type="number" name="height" id="height" placeholder="請輸入身高" step="0.1" required>
-        <br>
-        <label for="weight">體重</label>
-        <input type="number" name="weight" id="weight" placeholder="請輸入體重" step="0.1" required>
-        <p>
-            <button type="submit">計算</button>
-        </p>
-    </form>
-    <a href="./index.html">返回</a>
+    <div id="container">
+        <h1>BMI計算機</h1>
+        <form action="">
+            <label for="name">姓名</label>
+            <input type="text" name="name" id="name" placeholder="請輸入姓名">
+            <br>
+            <label for="height">身高</label>
+            <input type="number" name="height" id="height" placeholder="請輸入身高" step="0.1" required>
+            <br>
+            <label for="weight">體重</label>
+            <input type="number" name="weight" id="weight" placeholder="請輸入體重" step="0.1" required>
+            <p>
+                <button type="submit">計算</button>
+            </p>
+        </form>
+        <a href="./index.html">返回</a>
+    </div>
 </body>
 
 </html>

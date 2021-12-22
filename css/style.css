@@ -1,0 +1,115 @@
+body {
+    background-color: rgba(230, 230, 250, 0.75);
+    font-family: DFKai-SB, Microsoft JhengHei;
+}
+
+th {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+td:first-child {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.title {
+    background-color: #44516f;
+    color: white;
+    font-size: 3rem;
+    height: 4rem;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 6px;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.sub-title {
+    display: inline-block;
+    background-color: #44516f;
+    color: white;
+    border-radius: 6px;
+    font-size: 2rem;
+    height: 3rem;
+    padding: 10px;
+    margin: 6px;
+    padding-left: 10px;
+    line-height: 3rem;
+}
+
+#container {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.text-1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.1rem;
+    font-weight: bold;
+}
+
+.text-2 {
+    border: 2px rgba(0, 0, 0, 0.75) solid;
+    background-color: skyblue;
+    color: snow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.text-3 {
+    text-align: left;
+}
+
+.slogan {
+    font-size: 24px;
+    font-style: italic;
+    color: red;
+}
+
+#good-link a {
+    text-decoration: none;
+    color: rgb(153, 1, 1);
+    font-size: 20px;
+}
+
+#picture img {
+    border-radius: 0.6rem;
+}
+
+#picture {
+    text-align: center;
+}
+
+table {
+    width: 90%;
+    margin: 10px auto;
+    height: 200px;
+}
+
+input,
+button,
+textarea {
+    font-size: 1rem;
+}
+
+button {
+    border-radius: 6px;
+    border: 0;
+    background-color: tomato;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px 20px;
+    width: 100px;
+}
+
+form {
+    background-color: wheat;
+    /* margin: 20px 150px; */
+    width: 90%;
+    border-radius: 0.6rem;
+    padding: 20px;
+    color: rgb(243, 64, 19);
+}
