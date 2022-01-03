@@ -23,21 +23,23 @@
 <body>
     <div id="container">
         <h1>BMI計算機</h1>
-        <form action="">
-            <label for="name">姓名</label>
-            <input type="text" name="name" id="name" placeholder="請輸入姓名">
-            <br>
-            <label for="height">身高</label>
-            <input type="number" name="height" id="height" placeholder="請輸入身高" step="0.1" required>
-            <br>
-            <label for="weight">體重</label>
-            <input type="number" name="weight" id="weight" placeholder="請輸入體重" step="0.1" required>
-            <p>
-                <button type="submit">計算</button>
-            </p>
-        </form>
+
+        <label for="name">姓名</label>
+        <input type="text" name="name" id="name" placeholder="請輸入姓名">
+        <br>
+        <label for="height">身高</label>
+        <input type="number" name="height" id="height" placeholder="請輸入身高" step="0.1" required>
+        <br>
+        <label for="weight">體重</label>
+        <input type="number" name="weight" id="weight" placeholder="請輸入體重" step="0.1" required>
+        <p>
+            <button type="submit" id="bmi-btn">計算</button>
+        </p>
+        <p class="tag"></p>
+        <p class="advise"></p>
         <a href="./index.html">返回</a>
     </div>
+    <script src="./js/bmi.js"></script>
 </body>
 
 </html>
